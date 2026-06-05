@@ -49,8 +49,38 @@ body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 {
 body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 li {
   width: 415px;
   float: none !important;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 li > div {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 li > div .web_b_title .break {
+  min-height: 36px;
+}
+body #green30_107469 .gal_eff1 ul.bxSlide107469_S1 {
+  display: flex;
+}
+body #green30_107469 .gal_eff1 ul.bxSlide107469_S1 li {
+  width: 415px;
+  float: none !important;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+body #green30_107469 .gal_eff1 ul.bxSlide107469_S1 li > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+body #green30_107469 .gal_eff1 ul.bxSlide107469_S1 li > div .web_b_title .break {
+  min-height: 36px;
+}
+body #green30_107188 .banArea {
+  padding: 0 0 100px 0;
 }
