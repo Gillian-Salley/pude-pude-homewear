@@ -43,6 +43,14 @@ body header .header-wrap .cssmenu-wrapper .search-box {
   height: 40px;
   border-bottom: 1px solid #797677;
 }
-body #green30_107468 .gal_eff1 li {
+body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 {
+  display: flex;
+}
+body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 li {
   width: 415px;
+  float: none !important;
+}
+body #green30_107468 .gal_eff1 ul.bxSlide107468_S1 li > div {
+  display: flex;
+  flex-direction: column;
 }
